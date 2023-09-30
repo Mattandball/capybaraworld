@@ -1,0 +1,36 @@
+/* CSS for Video Player */
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style video controls */
+.video-controls {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Style control buttons */
+.video-controls button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: opacity 0.3s;
+}
+
+.video-controls button:hover {
+    opacity: 0.7;
+}
